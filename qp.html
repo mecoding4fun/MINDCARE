@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>MINDCARE</title>
+    <style>
+        body{
+            /* background: linear-gradient(to right, #000000, #ffffff); */
+            background-image: url('qpbg.png');
+        }
+        .questions{
+            font-size: 20px;
+            margin: 5%;
+            
+        }
+        p, label{
+            color: #000000;
+            font-weight: bold;
+        }
+        p{
+            margin: 2%;
+        }
+        label{
+            margin: 2%;
+        }
+        h1,h2{
+            color: #000000;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="welcome">
+        <h1>Welcome!</h1>
+        <h2>Lets try answering some basic questions.</h2>
+        <br>
+        <form>
+            <div id="questions">
+                <p>1. Is it long since have you been feeling down?</p>
+                <input type="radio" id="down_yes" name="down" value="yes">
+                <label for="down_yes">Yes</label>
+                <input type="radio" id="down_no" name="down" value="no">
+                <label for="down_no">No</label>
+            </div>
+            <div id="questions">
+                <p>2. Is your problem based on work life, relationship, family?</p>
+                <input type="radio" id="problem_work" name="problem" value="work">
+                <label for="problem_yes">Work</label>
+                <input type="radio" id="problem_rel" name="problem" value="relationship">
+                <label for="problem_no">Relationship</label>
+                <input type="radio" id="problem_fam" name="problem" value="family">
+                <label for="problem_no">Family</label>
+            </div>
+            <div id="questions">
+                <p>3. Do you find it hard to enjoy activities you used to like?</p>
+                <input type="radio" id="enjoy_yes" name="enjoy" value="yes">
+                <label for="enjoy_yes">Yes</label>
+                <input type="radio" id="enjoy_no" name="enjoy" value="no">
+                <label for="enjoy_no">No</label>
+            </div>
+            <div id="questions">
+                <p>4. Do you feel more anxious or worried than usual?</p>
+                <input type="radio" id="anxious_yes" name="anxious" value="yes">
+                <label for="anxious_yes">Yes</label>
+                <input type="radio" id="anxious_no" name="anxious" value="no">
+                <label for="anxious_no">No</label>
+            </div>
+            <div id="questions">
+                <p>5. Do you have difficulty concentrating on tasks?</p>
+                <input type="radio" id="concentrate_yes" name="concentrate" value="yes">
+                <label for="concentrate_yes">Yes</label>
+                <input type="radio" id="concentrate_no" name="concentrate" value="no">
+                <label for="concentrate_no">No</label>
+            </div>
+            
+        </form>
+        <a href="pagefour.html">
+            <button>Continue</button>
+        </a>
+    </div>
+</body>
+
+</html>
